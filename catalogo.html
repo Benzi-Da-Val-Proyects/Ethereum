@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereum Store</title>
+  <link rel="shortcut icon" href="/img/Marca/Logotipo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/4710d5210e.js" crossorigin="anonymous"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="/js/javascript.js"></script>
+  <link rel="stylesheet" href="style/carrusel.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- INICIO NAV BAR -->
+  <nav id="nav-bar">
+    <div class="topnav">
+      <input type="text" placeholder="Búsqueda..">
+      <div class="nav-inicio">
+        <ul class="menu" data-animation="center">
+          <li>
+            <a href="/Index.html">
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="https://ethereumpage.netlify.app/#Destacados">
+              Destacados
+            </a>
+          </li>
+          <li>
+            <a href="https://ethereumpage.netlify.app/#Ofertas">
+              Ofertas
+            </a>
+          </li>
+          <li>
+            <a href="/catalogo.html">
+              Catálogo
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- FIN NAV BAR -->
+  <div id="banner">
+    <h2> !BÚSQUEDA </h2>
+  </div>
+  <!-- DESCUENTO API -->
+  <div class="descuento-padding">
+    <details>
+      <summary id=descuentoDetails class="pregunta"><b>TENGO DESCUENTO</b></summary>
+      <div class="descuento">
+        <h2 class="DescuentoTitulo">Verifica si tu código tiene descuento
+          <input class="input-catalogo" placeholder="Ingresa tu codigo" id="id1" type="number" min="22517" max="22517"
+            required>
+          <button onclick="myFunction()" class="boton-catalogo">Ingresar</button>
+          <p id="demo"></p>
+        </h2>
+      </div>
+    </details>
+
+  </div>
+
+  <section class="grid">
+    <div class="grid-box" id="busqueda-catalogo">
+
+
+      <ul class="ul-marginfixed"> <b>Ordenar por:</b>
+        <li> <input class="input-catalogo" type="radio" name="Ordenar" value="Ascendente"> Ascendente</li>
+        <li> <input class="input-catalogo" type="radio" name="Ordenar" value="Descendente"> Descendente</li>
+        <li> <input class="input-catalogo" type="radio" name="Ordenar" value="Alfabético"> Alfabético</li>
+      </ul>
+
+      <ul class="ul-marginfixed"><b>Dispositivo:</b>
+        <li> <input class="input-catalogo" type="checkbox" name="Dispositivo" value="Xbox"> Xbox</li>
+        <li> <input class="input-catalogo" type="checkbox" name="Dispositivo" value="Play Station 5"> Play Station 5
+        </li>
+        <li> <input class="input-catalogo" type="checkbox" name="Dispositivo" value="PC"> PC</li>
+      </ul>
+
+      <ul><b>Precios:</b>
+        <li>Desde <input class="input-catalogo" type="number" placeholder="Desde" min="0" pattern="^[0-9]+"></li>
+        <li>Hasta <input class="input-catalogo" type="number" placeholder="Hasta" min="0" pattern="^[0-9]+"></li>
+        <button class="boton-catalogo"> Buscar </button>
+    </Div>
+
+
+
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/PS5/gotham.png" alt="Gotham">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Gotham Knights</p>
+          <p class="producto__precio">$70</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/PS5/gridlegends.png" alt="GridLegends">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Grid Legends</p>
+          <p class="producto__precio">$59.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/PS5/gta5.png" alt="GTAV">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Grand Theft <br> Auto V</p>
+          <p class="producto__precio">$25</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/PS5/horizon.png" alt="HorizonForbiddenWest">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Horizon <br> Forbidden West</p>
+          <p class="producto__precio">$69.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/PS5/spiderman.png" alt="Spiderman">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Spider-Man: <br> Miles Morales </p>
+          <p class="producto__precio">$49.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/xbox/tekken7.png" alt="Tekken7">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Tekken 7</p>
+          <p class="producto__precio">$49.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/xbox/rdr2.png" alt="ReddeadRedeption">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Red Dead <br> Redemption 2 </p>
+          <p class="producto__precio">$69.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/xbox/cult of the lamb.png" alt="CultoftheLamb">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Cult of the Lamb</p>
+          <p class="producto__precio">$25</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/xbox/sleeping dogs.png" alt="sleepingdogs">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Sleeping Dogs</p>
+          <p class="producto__precio">$30</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+    <div class="Game_producto">
+      <a href="#">
+        <img class="producto__imagen" src="/img/Catalogo juegos/Xbox/xbox/elden ring.png" alt="eldenring">
+        <div class="producto__informacion">
+          <p class="producto__nombre">Elden Ring</p>
+          <p class="producto__precio">$59.99</p>
+        </div>
+      </a>
+    </div>
+    <!--.producto-->
+  </section>
+  <!-- Fin Grid -->
+  <footer>
+    <div>
+      <p class="seguinos"> Seguinos</p>
+
+      <a href="https://www.facebook.com" target="_blank"> <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"
+          alt="Facebook"> </a>
+
+      <a href="https://www.instagram.com" target="_blank"> <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"
+          alt="Facebook"> </a>
+
+      <a href="https://www.WhatsApp.com" target="_blank"> <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png"
+          alt="Whatsapp"> </a>
+    </div>
+
+    <div>
+      <a href="/Contacto.html">
+        Contacto
+      </a>
+      <p> | </p>
+      <a href="/FAQs.html">
+        FAQs
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
